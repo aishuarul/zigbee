@@ -1,0 +1,8 @@
+.protocolExplanationTable td, .protocolExplanationTable tr{
+	border: none;
+}
+.protocolExplanationTable table td {
+    text-align: Center;
+    width:100px;
+    height:40px
+}

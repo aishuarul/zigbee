@@ -1,0 +1,421 @@
+<!DOCTYPE HTML>
+<!--
+	Royale by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Message Transmission</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<script src="js/taccGL/taccgl.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		<style>
+			.protocolExplanationTable td, .protocolExplanationTable tr{
+				border: none;
+			}
+			.protocolExplanationTable table td {
+			    text-align: Center;
+			    width:100px;
+			    height:40px;
+			}
+		</style>
+	</head>
+	<body >
+
+		<!-- Header -->
+		<div id="header">
+			<div class="container">
+				
+				<!-- Logo -->
+				<div id="logo">
+				</div>
+				
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Introduction</a></li>
+						<li><a href="ConnectionEstablishmentGame.html">Connection Simulation</a></li>
+						<li class="active"><a href="MessageTransferExplanation.html">Connecting Devices Sequence</a></li>
+					</ul>
+				</nav>
+
+			</div>
+		</div>
+		<!-- Header -->
+
+		<!-- Banner -->
+		<div id="banner">
+			<div class="container">
+
+
+			</div>
+		</div>
+		<!-- /Banner -->
+		
+		<!-- Main -->
+		<div id="main" style="width:1500px">
+			
+			<!-- Welcome -->		
+			<div id="welcome" class="container" style="width:100%;">
+				<div class="row">
+					<section>
+						<header>
+							<h2>Zigbee Message Transmission</h2>
+						</header>
+						<p> Once the nodes are connected as explained <a href="ConnectionEstablishmentGame.html"> here</a>, to see how the message transfer will work, please click on the diagram itself.
+						</p>
+						
+					</section>
+					<section id="protocolExplanation3D">'
+						
+						
+						<table id="connectionEstablishingHandshake" class="protocolExplanationTable">
+							<tr>
+								<td style="width:100px; height:70px">
+									<img src="images/userApp.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:100px; height:70px">
+								</td>
+								<td style="width:100px; height:70px">
+									<img src="images/ZDO.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:100px; height:70px">
+								</td>
+								<td style="width:100px; height:70px">
+									<img src="images/network.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:100px; height:70px">
+								</td>
+								<td style="width:100px; height:70px">
+									<img src="images/MAC.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:100px; height:70px">
+								</td>
+							</tr>
+							<!-- Row 1 -->
+							<tr>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:200px; height:50px">
+									<img id="connectionEstablishingHandshakeRow_B_1" src="images/algorithmEmptyImage.png" style="display: block; margin-left: auto; margin-right: auto;">
+									<img id="connectionEstablishingHandshakeRow_A_1" src="images/connectionEstablishingHandshakeRow1_1.png" style="display: none; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:200px; height:50px">
+									<img id="connectionEstablishingHandshakeRow_B_2" src="images/algorithmEmptyImage.png" style="display: block; margin-left: auto; margin-right: auto;">
+									<img id="connectionEstablishingHandshakeRow_A_2" src="images/connectionEstablishingHandshakeRow1_2.png" style="display: none; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:200px; height:50px">
+									<img id="connectionEstablishingHandshakeRow_B_3" src="images/algorithmEmptyImage.png" style="display: block; margin-left: auto; margin-right: auto;">
+									<img id="connectionEstablishingHandshakeRow_A_3" src="images/connectionEstablishingHandshakeRow1_3.png" style="display: none; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:100px; height:70px">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+							</tr>
+							<!-- Row 2 -->
+							<tr>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:100px; height:70px">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:100px; height:70px">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:200px; height:50px">
+									<img id="connectionEstablishingHandshakeRow_B_4" src="images/algorithmEmptyImage.png" style="display: block; margin-left: auto; margin-right: auto;">
+									<img id="connectionEstablishingHandshakeRow_A_4" src="images/connectionEstablishingHandshakeRow1_4.png" style="display: none; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:100px; height:70px">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+							</tr>
+							
+							<!-- Row 3 -->
+							<tr>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:100px; height:70px">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:100px; height:70px">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:200px; height:50px">
+									<img id="connectionEstablishingHandshakeRow_B_5" src="images/algorithmEmptyImage.png" style="display: block; margin-left: auto; margin-right: auto;">
+									<img id="connectionEstablishingHandshakeRow_A_5" src="images/connectionEstablishingHandshakeRow1_5.png" style="display: none; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:100px; height:70px">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+							</tr>
+							<!-- Row 4 -->
+							<tr>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:100px; height:70px">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:100px; height:70px">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:200px; height:50px">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:200px; height:50px">
+									<img id="connectionEstablishingHandshakeRow_B_6" src="images/algorithmEmptyImage.png" style="display: block; margin-left: auto; margin-right: auto;">
+									<img id="connectionEstablishingHandshakeRow_A_6" src="images/connectionEstablishingHandshakeRow1_6.png" style="display: none; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+							</tr>
+							<!-- Row 5 -->
+							<tr>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:100px; height:70px">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:100px; height:70px">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:100px; height:70px">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:100px; height:70px">
+									<img id="connectionEstablishingHandshakeRow_B_7" src="images/algorithmEmptyImage.png" style="display: block; margin-left: auto; margin-right: auto;">
+									<img id="connectionEstablishingHandshakeRow_A_7" src="images/connectionEstablishingHandshakeRow1_7.png" style="display: none; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+							</tr>
+							<!-- Row 6 -->
+							<tr>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:100px; height:70px">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:100px; height:70px">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:200px; height:50px">
+									<img id="connectionEstablishingHandshakeRow_B_8" src="images/algorithmEmptyImage.png" style="display: block; margin-left: auto; margin-right: auto;">
+									<img id="connectionEstablishingHandshakeRow_A_8" src="images/connectionEstablishingHandshakeRow1_8.png" style="display: none; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:200px; height:50px">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+							</tr>
+							
+							<!-- Row 7 -->
+							<tr>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:100px; height:70px">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:100px; height:70px">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:200px; height:50px">
+									<img id="connectionEstablishingHandshakeRow_B_9" src="images/algorithmEmptyImage.png" style="display: block; margin-left: auto; margin-right: auto;">
+									<img id="connectionEstablishingHandshakeRow_A_9" src="images/connectionEstablishingHandshakeRow1_9.png" style="display: none; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:100px; height:70px">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+							</tr>
+							<!-- Row 8 -->
+							<tr>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:200px; height:50px">
+									<img id="connectionEstablishingHandshakeRow_B_12" src="images/algorithmEmptyImage.png" style="display: block; margin-left: auto; margin-right: auto;">
+									<img id="connectionEstablishingHandshakeRow_A_12" src="images/connectionEstablishingHandshakeRow1_12.png" style="display: none; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:100px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:200px; height:50px">
+									<img id="connectionEstablishingHandshakeRow_B_11" src="images/algorithmEmptyImage.png" style="display: block; margin-left: auto; margin-right: auto;">
+									<img id="connectionEstablishingHandshakeRow_A_11" src="images/connectionEstablishingHandshakeRow1_11.png" style="display: none; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:200px; height:50px">
+									<img id="connectionEstablishingHandshakeRow_B_10" src="images/algorithmEmptyImage.png" style="display: block; margin-left: auto; margin-right: auto;">
+									<img id="connectionEstablishingHandshakeRow_A_10" src="images/connectionEstablishingHandshakeRow1_10.png" style="display: none; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:100px; height:70px">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+							</tr>
+							<!-- Last Row -->
+							<tr>
+								<td style="width:100px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:100px; height:70px">
+								</td>
+								<td style="width:100px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:100px; height:70px">
+								</td>
+								<td style="width:100px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:100px; height:70px">
+								</td>
+								<td style="width:100px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+								<td style="width:100px; height:70px">
+								</td>
+								<td style="width:30px; height:70px">
+									<img src="images/DottedLines.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</td>
+							</tr>
+						</table>
+					</section>
+				</div>
+			</div>
+			<!-- /Welcome -->
+			
+		</div>
+		<!-- /Main -->		
+
+		<!-- /Footer -->
+
+		<!-- Copyright -->
+		<div id="copyright">
+			<div class="container">
+				Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)
+			</div>
+		</div>
+		
+	<script>
+			
+		$( "#runConnectionEstablishingHandshake" ).click(function() {
+			$('#connectionEstablishingHandshakeRow_A_6').show();
+			taccgl.actor('connectionEstablishingHandshakeRow_A_6').rotateMiddle(0,1,0).start(); taccgl.start();
+			$('#connectionEstablishingHandshakeRow_B_6').hide();
+			
+		});
+		
+		var connectionEstablishingHandshakeCounter = 1;
+		var objectToHide = "";
+		var objectToShow = "";
+		var tableName ="";
+		$( "#connectionEstablishingHandshake").click(function() {
+			if(connectionEstablishingHandshakeCounter <= 12){
+				tableName ="connectionEstablishingHandshakeRow";
+				objectToShow ="#"+ tableName + "_A_" + connectionEstablishingHandshakeCounter;
+				objectToHide ="#"+ tableName + "_B_" + connectionEstablishingHandshakeCounter;
+				obectToRotate =tableName + "_A_" + connectionEstablishingHandshakeCounter;
+				$(objectToShow).show();
+				taccgl.actor(obectToRotate).rotateMiddle(0,1,0).start(); taccgl.start();
+				$(objectToHide).hide();
+				connectionEstablishingHandshakeCounter = connectionEstablishingHandshakeCounter +1;
+				$("#runConnectionEstablishingHandshake").html('Click For Step ' + connectionEstablishingHandshakeCounter);	
+			}
+			else{
+				alert("Thats it folkes, go and read something new");
+			}
+			
+		});
+		
+	</script>
+	</body>
+</html>
